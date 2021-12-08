@@ -1,0 +1,182 @@
+body{
+    background-color: rgb(0, 58, 22);
+    overflow: hidden;
+}
+.full-content{
+    width: 90vw;
+    height: 90vh;
+    text-align: center;
+    justify-content: center;
+    margin-left: 100px;
+    padding-left:50px ;
+    padding-top: 50px;
+}
+.top-car{
+    width: 300px;
+    height: 80px;
+    background-color: gainsboro;
+    border-radius: 0px 80px 0px 0px;
+}
+.car-body{
+    width: 400px;
+    height: 100px;
+    background-color: gainsboro;
+    border-radius: 0px 20px 0px 10px;
+}
+.wheel{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #000;
+}
+#wheel1{
+    transform: translate(50px,-30px);
+}
+#wheel2{
+    transform: translate(250px,-90px);
+}
+.bumper{
+    width: 80px;
+    height: 15px;
+    background-color: #000;
+    border-radius: 60px 60px 0px 0px;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 190px;
+    left: 525px;
+}
+.back{
+    height: 100px;
+    width: 20px;
+    background-color: gainsboro;
+    border-radius: 4px 0px 0px 4px;
+    position: absolute;
+    top: 135px;
+    left: 150px;
+}
+.window-front{
+   width: 80px;
+   height: 70px;
+   background-color: #FFF;
+   border-radius: 0px 80px 0px 0px;
+   position: absolute;
+   top: 65px;
+   left: 370px;
+}
+.tops{
+    width: 200px;
+    height: 10px;
+    background-color: gainsboro;
+    border-radius: 3px 3px 0px 0px;
+    position: absolute;
+    top: 50px;
+}
+.steering{
+    width: 30px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: black;
+    position: absolute;
+    transform: rotate(135deg);
+    top: 115px;
+    left: 417px;
+}
+.driverseat{
+    width: 15px;
+    height: 40px;
+    background-color: black;
+    border-radius: 0px 30px 0px 0px;
+    position: absolute;
+    top: 95px;
+    left: 370px;
+}
+.lights{
+    width: 20px;
+    height: 50px;
+    background-color: rgb(148, 71, 71);
+    position: absolute;
+    top: 135px;
+    left: 150px;
+    border-radius: 5px 0px 0px 0px;
+}
+.from-light{
+    width: 20px;
+    height: 20px;
+    border-radius: 0px 20px 0px 0px;
+    background-color: rgb(221, 221, 221);
+    position: absolute;
+    left: 538px;
+    top: 137px;
+    border: 1px solid gainsboro;
+}
+.from-circle{
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    left: 570px;
+    top: 220px;
+}
+#go-up{
+    top: 180px;
+}
+.front-line{
+    width: 45px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    top: 203px;
+    left: 556px;
+    transform: rotate(90deg);
+}
+.exhaust{
+    width: 70px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #000;
+    position: absolute;
+    top: 230px;
+}
+.indicator{
+    width: 15px;
+    height: 5px;
+    background-color: #FFF;
+    position: absolute;
+    top: 150px;
+    left: 450px;
+}
+.backs{
+    width: 150px;
+    height: 200px;
+    background-color: rgb(0, 58, 22);
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    border-radius: 0px 200px 200px 0px;
+}
+.frontfull{
+    width: 900px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    left: 577px;
+    background-color: rgb(0, 58, 22);
+    border-radius: 200px 0px 0px 100px;
+}
+#btn-front{
+    background-color: #FFF;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    height: 30px;
+    width: 100px;
+}
+#btn-back{
+    background-color: red;
+    color: #FFF;
+    font-weight: bold;
+    border: none;
+    height: 30px;
+    width: 100px;
+}
